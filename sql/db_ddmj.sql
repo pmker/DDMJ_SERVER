@@ -1771,7 +1771,7 @@ CREATE TABLE `t_users` (
   `coins` int(11) DEFAULT '0' COMMENT '用户金币',
   `gems` int(11) DEFAULT '0' COMMENT '用户宝石',
   `roomid` varchar(8) DEFAULT NULL,
-  `history` varchar(4096) NOT NULL,
+  `history` varchar(4096) DEFAULT '',
   PRIMARY KEY (`userid`),
   UNIQUE KEY `account` (`account`)
 ) ENGINE=InnoDB AUTO_INCREMENT=9 DEFAULT CHARSET=utf8;
