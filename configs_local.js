@@ -48,7 +48,7 @@ exports.hall_server = function(){
 //游戏服配置
 exports.game_server = function(){
 	return {
-		SERVER_ID:"001",
+		SERVER_ID:"192.168.0.114:9999",
 		
 		//暴露给大厅服的HTTP端口号
 		HTTP_PORT:9003,
