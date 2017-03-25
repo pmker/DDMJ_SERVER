@@ -1,4 +1,4 @@
-﻿var HALL_IP = "192.168.0.114";
+﻿var HALL_IP = "192.168.0.116";
 var HALL_CLIENT_PORT = 9001;
 var HALL_ROOM_PORT = 9002;
 
@@ -48,7 +48,7 @@ exports.hall_server = function(){
 //游戏服配置
 exports.game_server = function(){
 	return {
-		SERVER_ID:"192.168.0.114:9999",
+		SERVER_ID:"001",
 		
 		//暴露给大厅服的HTTP端口号
 		HTTP_PORT:9003,
